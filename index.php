@@ -43,7 +43,7 @@
 
                             </p>
                             <?php
-            echo get_the_tag_list("ul class=\"list-unstyled\"><li>","</li><li>","</li></ul>");
+            echo get_the_tag_list("<ul class=\"list-unstyled\"><li>","</li><li>","</li></ul>");
 
             ?>
 
@@ -56,6 +56,7 @@
             }
                 ?>
                             </p>
+                             <?php the_content();?>
 
                         </div>
                     </div>
