@@ -23,7 +23,7 @@ h1.heading {
 h3.tagline {
     font-family: Arial;
     margin: auto;
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 50px;
     margin-bottom: 15px;
     width: 700px;
@@ -41,7 +41,7 @@ h2.post-title {
 .post p {
     font-family: "Helvetica Neue";
     line-height: 1.7em;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .post p img {
@@ -57,6 +57,10 @@ h2.post-title {
 
 .post:last-child .row:nth-child(2) {
     border-bottom: none;
+}
+
+.post-pagination {
+    margin-bottom: 50px;
 }
 
 .footer {
